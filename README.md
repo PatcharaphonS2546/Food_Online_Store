@@ -3,4 +3,4 @@ This is my project lean process MEAN CRUD
 
 
 # start project 
-npm install
+deverloper in dev brance
