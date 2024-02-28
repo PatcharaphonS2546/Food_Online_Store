@@ -46,13 +46,16 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
       5. Add scss
 
 8. Food Page
+
    1. Add method to food service
    2. Generate Food Page component
       1. Add Route
       2. Add ts
       3. Add html
       4. Add scss
+
 9. Cart Page
+
    1. Create CartItem Model
    2. Create Cart Model
    3. Generate Cart service
@@ -62,12 +65,13 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
       2. Add ts
       3. Add html
       4. Add scss
+
 10. Not Found!
-11. Generate Component
-12. Add ts
-13. Add html
-14. Add scss
-15. Add To Pages
-16. Home Page
-17. Food Page
-18. Cart Page
+    1. Generate Component
+       1. Add ts
+       2. Add html
+       3. Add scss
+    2. Add To Pages
+       1. Home Page
+       2. Food Page
+       3. Cart Page
