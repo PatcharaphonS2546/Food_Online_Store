@@ -67,6 +67,7 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
       4. Add scss
 
 10. Not Found!
+
     1. Generate Component
        1. Add ts
        2. Add html
@@ -75,3 +76,19 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
        1. Home Page
        2. Food Page
        3. Cart Page
+
+11. Connect To Backend
+    1. Create backend folder
+    2. npm init
+    3. npm install typescript
+    4. Create tsconfig.json
+    5. Create .gitignore
+    6. Copy data.ts to backend/src
+    7. npm install express cors
+    8. Create server.ts
+       1. install @types
+       2. Add Apis
+    9. npm install nodemon ts-node --save-dev
+    10. Add urs.ts to frontend
+    11. Add HttpClient module
+    12. Update food service
