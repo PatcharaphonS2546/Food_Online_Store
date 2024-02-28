@@ -9,7 +9,7 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
 4. Add Header
    1. Generate Component
    2. Add Html
-   3. Add CSS
+   3. Add SCSS
 5. List Foods
    1. Create Food model
    2. Create data.ts
@@ -19,7 +19,7 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
    5. Create Home component
       1. Add ts
       2. Add html
-      3. Add css
+      3. Add scss
 6. Search
    1. Add method to Food service
    2. Add search route
@@ -28,7 +28,7 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
       1. Add to home component
       2. Add ts
       3. Add html
-      4. Add css
+      4. Add scss
 7. Tags Bar
 
    1. Create Tag model
@@ -43,7 +43,7 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
       2. Add ts
       3. Add html
       4. Add css
-      5. Add css
+      5. Add scss
 
 8. Food Page
    1. Add method to food service
@@ -51,4 +51,23 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
       1. Add Route
       2. Add ts
       3. Add html
-      4. Add css
+      4. Add scss
+9. Cart Page
+   1. Create CartItem Model
+   2. Create Cart Model
+   3. Generate Cart service
+   4. Add to Cart Button in Food Page
+   5. Generate Cart Page component
+      1. Add Route
+      2. Add ts
+      3. Add html
+      4. Add scss
+10. Not Found!
+11. Generate Component
+12. Add ts
+13. Add html
+14. Add scss
+15. Add To Pages
+16. Home Page
+17. Food Page
+18. Cart Page
