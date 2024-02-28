@@ -8,7 +8,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-food-page',
   templateUrl: './food-page.component.html',
-  styleUrls: ['./food-page.component.css']
+  styleUrls: ['./food-page.component.scss']
 })
 export class FoodPageComponent {
   faStar = faStar;

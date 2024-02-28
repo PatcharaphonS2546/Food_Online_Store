@@ -18,9 +18,7 @@ export class HomeComponent {
 
   @Input() rating: number = 0;
 
-  foods: Food[]=[
-
-  ];
+  foods: Food[]=[];
 
   constructor(private foodService: FoodService, activatedRoute: ActivatedRoute){
     activatedRoute.params.subscribe((params) => {
