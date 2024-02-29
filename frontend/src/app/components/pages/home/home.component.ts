@@ -5,6 +5,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faClock } from '@fortawesome/free-regular-svg-icons'
 import { ActivatedRoute } from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -21,13 +22,18 @@ export class HomeComponent {
   foods: Food[]=[];
 
   constructor(private foodService: FoodService, activatedRoute: ActivatedRoute){
+    let foodsObservable : Observable<Food[]>;
     activatedRoute.params.subscribe((params) => {
       if(params.searchTerm)
-      this.foods = this.foodService.getAllFoodsBySearchTerm(params.searchTerm);
-      else if(params.tag)
-      this.foods = this.foodService.getAllFoodsByTag(params.tag);
+      foodsObservable = this.foodService.getAllFoodsBySearchTerm(params.searchTerm);
+      else if (params.tag)
+        foodsObservable = this.foodService.getAllFoodsByTag(params.tag);
       else
-      this.foods = foodService.getAll();
+      foodsObservable = foodService.getAll();
+
+      foodsObservable.subscribe((serverFoods) => {
+        this.foods = serverFoods;
+      })
     })
   }
 

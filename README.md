@@ -78,6 +78,7 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
        3. Cart Page
 
 11. Connect To Backend
+
     1. Create backend folder
     2. npm init
     3. npm install typescript
@@ -92,3 +93,36 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
     10. Add urs.ts to frontend
     11. Add HttpClient module
     12. Update food service
+
+12. Login Page
+
+    1. Generate Component
+       1. Add to routes
+       2. Add ts
+       3. Add html
+          1. Import Reactive Forms Module
+       4. Add Css
+    2. Add Login API
+       1. Use json
+       2. Add jsonwebtoken
+       3. Test using Postman
+    3. Generate User Service
+       1. Generate User model
+       2. Add User Subject
+       3. Add Login Method
+          1. Add User Urls
+          2. Generate IUserLogin interface
+          3. Add ngx-toastr
+             1. Import Module
+             2. Import BrowserAnimationModule
+             3. Add styles in angular.json
+          4. Add LocalStorage methods
+       4. Add Local Storage methods
+       5. Add Logout Method
+          1. Add to Header
+
+13. Make Component For Login Page
+    1. Input Container
+    2. Input Validation
+    3. Text Input
+    4. Default Button
