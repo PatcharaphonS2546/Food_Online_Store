@@ -122,7 +122,34 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
           1. Add to Header
 
 13. Make Component For Login Page
+
     1. Input Container
     2. Input Validation
     3. Text Input
     4. Default Button
+
+14. Connect Login API to MongoDB Atlas
+
+    1. Moving APIs into routers.
+    2. Create MongoDB Atlas.
+    3. Create .env file.
+    4. Install
+       1. mongoose
+       2. dotenv
+       3. bcryptjs
+       4. express-async-handler
+    5. Connect to MongoDB Atlas
+    6. Use MongoDB instead of data.ts in APIs
+
+15. Register User
+
+    1. Add Register API
+    2. Add Register Service method
+    3. Add Register link
+    4. Add Register Component
+
+16. Loading!
+    1. Add Image
+    2. Add Component
+    3. Add Service
+    4. Add Interceptor
