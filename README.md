@@ -149,7 +149,28 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
     4. Add Register Component
 
 16. Loading!
+
     1. Add Image
     2. Add Component
     3. Add Service
     4. Add Interceptor
+
+17. Checkout page
+    1. Create Order model
+    2. Create Checkout Page Component
+       1. Add to Router
+    3. Add User to User Service
+    4. Add Cart to Cart Service
+    5. Create Order Items List Component
+    6. Adding Map to the Checkout Page
+       1. Add Leaflet npm package
+          1. Add @types/leaflet
+          2. Add Css to angular.json
+       2. Add AddressLatLng to Order Model
+       3. Create Map Component
+          1. Add to checkout page
+          2. Add TS
+             1. Change app-map selector to map
+          3. Add html
+          4. Add css
+       4. Add Auth Guard
