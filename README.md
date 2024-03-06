@@ -174,3 +174,19 @@ credit : https://www.youtube.com/watch?v=S0-0ufTQh_I&list=PLpaspowtqj-dA0cRZ1yEZ
           3. Add html
           4. Add css
        4. Add Auth Guard
+    7. Save Order #have problem now
+       1. Add Order Model
+       2. Add Order Status Enum
+       3. Add Auth Middleware
+       4. Add Order Router
+          1. Add Create API
+       5. Add Order Urls to urls.ts
+       6. Add Order Service
+          1. Add Create Method
+       7. Add Auth Interceptor
+    8. Payment Page
+       1. Generate Component
+       2. Add 'getOrderForCurrentUser' API
+       3. Add Order Service method
+       4. Connect Component to Service
+       5. Make the map component readonly

@@ -60,18 +60,14 @@ router.post('/register', asyncHandler(
   }
 ))
 
-const generateTokenResponse = ( user : any ) => {
+ const generateTokenResponse = (user : User) => {
     const token = jwt.sign({
-        email:user.email, isAdmin:user.isAdmin
-    },"SomeRandomText",{
-        expiresIn:"2h"
+      id: user.id, email:user.email, isAdmin: user.isAdmin
+    },process.env.JWT_SECRET!,{
+      expiresIn:"30d"
     });
+ }
 
-    user.token = token;
-    return user;
-}
+export default router;
 
-
-export default router
-
-// บัค อะไรไม่รู้?
+// บัค อะไรไม่รู้
